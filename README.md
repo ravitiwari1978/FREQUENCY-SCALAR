@@ -9,6 +9,7 @@ AUTHOR- RAVI SHANKAR TIWARI
 <br>
 Designed and implemented a parameterized clock divider module with user defined frquency scaling in the verilog HDL and the test bench for this module is in the system verilog hardware description language.This frequency scalar can be used to scale down the high frequency by user defined division factor.The division factor up to the 2^Width is allowed where the width is the parameter defined for the module and user can give the division factor in the testbench module.
 <br>
+
 2.MOTIVATION
 <br>
 In many digital systems, the system clock runs at a high frequency, while peripheral devices such as UART,SPI or I2C require much lower operating frequencies.A frequency scalar is used to bridge this gap by dividing the system clock to generate a slower clock for peripherals.This project was undertaken to design a confriguable frequency scalar that support user defined scaling, making it reusable and adaptable across different peripheral interfaces.
